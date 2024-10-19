@@ -17,24 +17,28 @@ h1 {
   font-family: Coolvetica;
   color: rgb(140, 167, 255);
   font-size: 5em;
+  font-weight: normal;
 }
 
 h2 {
   font-family: Coolvetica;
   color: rgb(106, 136, 236);
   font-size: 4em;
+  font-weight: normal;
 }
 
 h3 {
   font-family: Coolvetica;
   color: rgb(69, 106, 228);
   font-size: 3em;
+  font-weight: normal;
 }
 
 p {
   font-family: Coolvetica;
   color: rgb(46, 72, 157);
   font-size: larger;
+  font-weight: normal;
 }
 
 a {
