@@ -1,0 +1,53 @@
+@font-face {
+  font-family: JetBrainsMono;
+  src: url(fonts/JetBrainsMonoNL-Regular.ttf);
+}
+
+@font-face {
+  font-family: RobotoMono;
+  src: url(fonts/RobotoMono-Regular.ttf);
+}
+
+@font-face {
+  font-family: Coolvetica;
+  src: url(fonts/coolvetica_rg.otf);
+}
+
+h1 {
+  font-family: Coolvetica;
+  color: rgb(140, 167, 255);
+  font-size: 5em;
+}
+
+h2 {
+  font-family: Coolvetica;
+  color: rgb(106, 136, 236);
+  font-size: 4em;
+}
+
+h3 {
+  font-family: Coolvetica;
+  color: rgb(69, 106, 228);
+  font-size: 3em;
+}
+
+p {
+  font-family: Coolvetica;
+  color: rgb(46, 72, 157);
+  font-size: larger;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.letterbox {
+  width: 40%;
+  background-color: rgb(173, 216, 230);
+  margin-left: 0;
+  border-radius: 35px;
+  padding-left: 2%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
