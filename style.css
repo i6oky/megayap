@@ -106,3 +106,34 @@ a {
   opacity: 1;
   transform: translateY(0); /* reset position */
 }
+
+/* style buttons */
+.button-container {
+  display: inline-block;
+  margin: 10px; /* Space between buttons */
+}
+
+.button {
+  width: 40vw; /* Width relative to viewport width */
+  height: 20vw; /* Height relative to viewport width */
+  max-width: 540px; /* Limit maximum width */
+  max-height: 100px; /* Limit maximum height */
+  background-color: lightblue;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.button:hover {
+  transform: scale(1.1);
+}
+
+.button img {
+  max-width: 90%; /* Ensure image doesn't overflow */
+  max-height: 90%; /* Ensure image doesn't overflow */
+  object-fit: contain; /* Maintain aspect ratio */
+}
