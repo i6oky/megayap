@@ -56,11 +56,25 @@ a {
   padding-left: 2%;
   padding-top: 1%;
   padding-bottom: 1%;
+  padding-right: 2%;
 }
 
 .container {
   display: flex;
   justify-content: space-between;
+}
+
+/* initially hide the container */
+.container {
+  opacity: 0;
+  transform: translateY(50px); /* move it slightly down for a smoother reveal */
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+/* class to show the container when it enters the viewport */
+.container.visible {
+  opacity: 1;
+  transform: translateY(0); /* reset position */
 }
 
 .container2 {
@@ -78,4 +92,17 @@ a {
 .container2 div:last-child iframe {
   width: 60%; /* Adjust this value as needed */
   margin-left: 10%; /* Center the iframe within its container */
+}
+
+/* initially hide the container */
+.container2 {
+  opacity: 0;
+  transform: translateY(50px); /* move it slightly down for a smoother reveal */
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+/* class to show the container when it enters the viewport */
+.container2.visible {
+  opacity: 1;
+  transform: translateY(0); /* reset position */
 }
