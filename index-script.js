@@ -25,7 +25,9 @@ window.onclick = function (event) {
 submitBtn.onclick = function () {
   const password = document.getElementById("password").value;
   if (password === correctPassword) {
-    // Redirect to note.html if password is correct
+    // Store a flag in localStorage indicating the user is authenticated
+    localStorage.setItem("auth", "true");
+    // Redirect to note.html
     window.location.href = "note.html";
   } else {
     // Show an alert if the password is incorrect

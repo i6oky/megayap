@@ -27,7 +27,14 @@
     <link href="style.css" rel="stylesheet" />
 
     <title>thanks</title>
-  </head>
+    <script>
+      // Check if the user is authenticated
+      if (localStorage.getItem('auth') !== 'true') {
+        // If not authenticated, redirect to index.html
+        window.location.href = 'index.html';
+      }
+    </script>
+    
   <body>
     <div style="margin: 5%; text-align: left; text-align: center">
       <h1>v click one of these v</h1>
