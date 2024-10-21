@@ -6,12 +6,19 @@
     <title>memories</title>
     <link rel="icon" type="image/x-icon" href="images/sillycat.png" />
     <link href="style.css" rel="stylesheet" />
+    <script>
+      // for auth
+      // Check if the user is authenticated
+      if (localStorage.getItem("auth") !== "true") {
+        // If not authenticated, redirect to index.html
+        window.location.href = "index.html";
+      }
+    </script>
   </head>
   <body>
     <div class="container">
-      <div style="width: 35%; margin-left: 5%"></div>
-      <div></div>
-    </div>
+      <div><h1>Memories!</h1></div>
+      
     <script src="script.js"></script>
   </body>
 </html>

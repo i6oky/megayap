@@ -31,6 +31,6 @@ submitBtn.onclick = function () {
     window.location.href = "note.html";
   } else {
     // Show an alert if the password is incorrect
-    alert("Incorrect password, please try again.");
+    alert("haha stupid put wrong password");
   }
 };
