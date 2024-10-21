@@ -140,3 +140,8 @@ a {
   max-height: 90%; /* Ensure image doesn't overflow */
   object-fit: contain; /* Maintain aspect ratio */
 }
+
+ol {
+  font-family: Coolvetica;
+  font-size: larger;
+}
