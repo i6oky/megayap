@@ -4,17 +4,53 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>!!!</title>
-    <link rel="icon" type="image/x-icon" href="images/strobcat.png" />
+    <link rel="icon" type="image/x-icon" href="images/sillycat.png" />
     <link href="index_styles.css" rel="stylesheet" />
   </head>
   <body>
-    <div class="button-container">
-      <a
-        href="note.html"
-        class="glow-button"
-        style="font-family: Coolvetica; font-size: 40px"
-        >go to note</a
-      >
+    <div class="container">
+      <!-- Go to Note Button -->
+      <div class="button-container">
+        <button
+          class="glow-button"
+          id="open-password-popup"
+          style="font-family: Coolvetica; font-size: 40px"
+        >
+          Go to Note
+        </button>
+      </div>
     </div>
+
+    <!-- Password Popup Modal -->
+    <div id="passwordModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 style="font-family: Coolvetica">Enter Password</h2>
+        <input
+          type="password"
+          id="password"
+          placeholder="Enter password"
+          style="
+            font-family: Coolvetica;
+            font-size: 20px;
+            padding: 10px;
+            border-radius: 10px;
+          "
+        />
+        <button
+          id="submit-password"
+          style="
+            font-family: Coolvetica;
+            font-size: 20px;
+            margin-top: 20px;
+            padding: 10px;
+            border-radius: 10px;
+          "
+        >
+          Submit
+        </button>
+      </div>
+    </div>
+    <script src="index-script.js"></script>
   </body>
 </html>

@@ -50,7 +50,7 @@ a {
   display: inline-block;
   vertical-align: top;
   width: 40%;
-  background-color: rgb(173, 216, 230);
+  background-color: #add8e6;
   margin-left: 0;
   border-radius: 35px;
   padding-left: 2%;
@@ -61,7 +61,9 @@ a {
 
 .container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center; /* centers horizontally */
+  align-items: center; /* centers vertically (if needed) */
+  margin-top: 20px; /* adjusts space between buttons */
 }
 
 /* initially hide the container */
@@ -114,13 +116,13 @@ a {
 }
 
 .button {
-  width: 40vw; /* Width relative to viewport width */
+  width: 20vw; /* Width relative to viewport width */
   height: 20vw; /* Height relative to viewport width */
   max-width: 540px; /* Limit maximum width */
-  max-height: 100px; /* Limit maximum height */
+  max-height: 540px; /* Limit maximum height */
   background-color: lightblue;
   border: none;
-  border-radius: 5px;
+  border-radius: 35%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -130,6 +132,7 @@ a {
 
 .button:hover {
   transform: scale(1.1);
+  box-shadow: 0 0 20px #add8e6, 0 0 30px #add8e6, 0 0 40px #add8e6;
 }
 
 .button img {
