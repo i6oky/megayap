@@ -2,7 +2,7 @@ const modal = document.getElementById("passwordModal");
 const btn = document.getElementById("open-password-popup");
 const span = document.getElementsByClassName("close")[0];
 const submitBtn = document.getElementById("submit-password");
-const correctPassword = "oishiishibainu69"; // Set your password
+const correctPassword = "oishiishibainu69";
 
 // Open the modal when the Go to Note button is clicked
 btn.onclick = function () {
